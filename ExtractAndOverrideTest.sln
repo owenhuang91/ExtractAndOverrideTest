@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeValidate", "DateTimeValidate\DateTimeValidate.csproj", "{A7DC0099-946A-40C5-B047-8A867D97175F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeTest", "DateTimeTest\DateTimeTest.csproj", "{48780A6E-6451-40E4-A90A-1081FDEDAD12}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7DC0099-946A-40C5-B047-8A867D97175F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DC0099-946A-40C5-B047-8A867D97175F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DC0099-946A-40C5-B047-8A867D97175F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DC0099-946A-40C5-B047-8A867D97175F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48780A6E-6451-40E4-A90A-1081FDEDAD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48780A6E-6451-40E4-A90A-1081FDEDAD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48780A6E-6451-40E4-A90A-1081FDEDAD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48780A6E-6451-40E4-A90A-1081FDEDAD12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
